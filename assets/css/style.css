@@ -64,6 +64,7 @@ div h1 {
     border-color: #dddddd;
     border-style: solid;
     border-width: 2px;
+    height: 550px;
 }
 
 .contact {
@@ -133,4 +134,30 @@ footer {
     left: 0;
     bottom: 0;
     border-top: 4px solid #4aaaa5;
+}
+
+#img1 {
+    float: left;
+    padding: 0px 60px 30px 20px;
+}
+
+#img2 {
+    float: left;
+    padding: 0px 60px 30px 20px;
+}
+
+#img3 {
+    clear: both;
+    float: left;
+    padding: 0px 60px 30px 20px;
+}
+
+#img4 {
+    float: left;
+    padding: 0px 60px 30px 20px;
+}
+
+#img5 {
+    clear: both;
+    padding: 0px 60px 30px 20px;
 }
