@@ -4,7 +4,16 @@ html {
 
 h2 {
     clear: both;
-    padding: 30px 0px 0px 20px;
+    padding: 30px 20px 0px 20px;
+}
+
+h2:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #cccccc;
 }
 
 .topnav {
@@ -12,26 +21,40 @@ h2 {
     width: 100%;
     height: 100px;
     margin: 0px;
+    padding: 0px 200px 0px 0px;
+    border-bottom: 2px solid #cccccc;
 }
 
 div h1 {
-    margin: 20px 0px 0px 250px;
+    margin: 20px 90px 0px 250px;
     float: left;
-    padding: 20px 0px;
+    padding: 21px 20px;
     background-color: #4aaaa5;
     height: 39px;
+    width: 190px;
     color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
 }
 
 .topnav a {
     float: right;
-    padding: 40px 10px;
+    padding: 41px 10px;
     color: #777777;
+    text-decoration: none;
+}
+
+#about {
+    margin: 0px 250px 0px 0px;
 }
 
 .aboutme {
     margin: 20px 250px 0px 250px;
     background-color: white;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 2px;
 }
 
 img {
@@ -51,4 +74,19 @@ img {
 #thirdparagraph {
     clear: both;
     padding: 20px 20px 20px 20px;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 4px solid #4aaaa5;
 }
